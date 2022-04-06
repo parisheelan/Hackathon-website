@@ -1,0 +1,140 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    .logo{
+        height:50px;
+        width:50px;
+        background-color: blue;
+        border-radius: 50%;
+        margin-top:20px;
+        position: relative;
+        left:-150px;
+    }
+    button{
+        border:none;
+        padding:10px 25px;
+        background-color: rgb(255, 131, 6);
+        border-radius: 8px;
+        color:white;
+        font-size: 1rem;
+    }
+    button:hover{
+        border:solid 2px rgb(255, 131, 6);
+        background-color: white; 
+        padding:8px 23px;
+        color:rgb(255, 131, 6);
+    }
+    section{
+        min-height:100vh;
+        width:75%;
+        margin:0 auto;
+    }
+    nav{
+        ul{
+            display:flex;
+            align-items: center;
+            position:absolute;
+            right:80px;
+            top:0px;
+            li{
+                padding:10px 20px;
+                list-style: none;
+            }
+        }
+    }
+    header{
+        margin-top:150px;
+        h2{
+            font-size:2rem;
+        }
+        h1{
+            font-size:7rem;
+            margin-top:-20px;
+        }
+        p{
+            font-size:1.5rem;
+            margin-top:-50px;
+            span{
+                font-size:3rem;
+            }
+        }
+        button{
+            margin-top:50px;
+            padding:20px 40px;
+            font-size: 1.5rem;
+        }
+        button:hover{
+            border:solid 3px rgb(255, 131, 6);
+            background-color: white; 
+            padding:17px 37px;
+            color:rgb(255, 131, 6);
+        }
+    }
+    .about{
+        h1{
+            font-size: 3rem;
+        }
+        h2{
+            margin-top:50px;
+        }
+        p{
+            font-size: 1.3rem;
+            width:85%;
+            margin:auto;
+            margin-top:100px;
+            line-height: 30px;
+        }
+        .flex{
+            margin-top:50px;
+            font-size:1.4rem;
+            font-weight:bold;
+            display:flex;
+            justify-content:space-around;
+            span{
+                margin-top:100px;
+            }
+        }
+    }
+    .rules{
+        h1{
+            font-size: 3rem;
+        }
+        ul{
+            line-height: 35px;
+            text-align: justify;
+            list-style: none;
+            font-size: 1.2rem;
+        }
+    }
+    .themes{
+        
+        h1{
+            font-size: 3rem;
+        }
+        .card{
+            color:white;
+            height:300px;
+            width:350px;
+            background-color: grey;
+            border-radius:20px;
+            margin:20px 20px;
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .contact{
+        
+        h1{
+            font-size: 3rem;
+        }
+        pre{
+            margin-top:100px;
+            font-size: 1.3rem;
+            font-family: Arial;
+        }
+    }
+}
