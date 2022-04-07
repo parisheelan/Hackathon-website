@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,16 +8,21 @@
     <title>Reasearch By Learning | Hackathon</title>
     <link rel="stylesheet" href="style/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Alatsi&family=Anton&family=Comfortaa:wght@300&family=DM+Serif+Text:ital@1&family=Oswald:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Alatsi&family=Anton&family=Comfortaa:wght@300&family=DM+Serif+Text:ital@1&family=Monoton&family=Oswald:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
   </head>
+
+
   <body class="">
+
+    <div class="body">
     <section class="home" id="home">
       <div class="logo">
-        <div class="circle"></div>
+        <img src="images/logo.png" alt="">
       </div>
-
-      
 
       <nav>
         <ul>
@@ -26,7 +32,7 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><button>Register</button></li>
+          <li><button onclick="window.location.href = '/registration.html';">Register</button></li>
         </ul>
       </nav>
 
@@ -38,11 +44,13 @@
           <span> ❞</span>
         </p>
 
-        <button>
+        <button onclick="window.location.href = '/registration.html';">
             Register
         </button>
       </header>
+
     </section>
+
 
     <section class="about" id="about">
       <h1>About</h1>
@@ -63,16 +71,18 @@
       </p>
     </section>
 
+
+
     <section class="rules" id="rules">
-        <h1>Rules</h1>
+        <h1>⚔️ Rules</h1>
         <ul>
-            <li>1. Registration Fees Rs 50/- per team.</li>
-            <li>2. Team Size : 1-3 Members (max : 3). </li>
-            <li>3. No intervening Certificates.</li>
-            <li>4. Attendance will be given on the days of evaluation to those who will register and submit their work on time. </li>
+            <li>📌 Registration Fees Rs 50/- per team.</li>
+            <li>📌Team Size : 1-3 Members (max : 3). </li>
+            <li>📌 No intervening Certificates.</li>
+            <li>📌 Attendance will be given on the days of evaluation to those who will register and submit their work on time. </li>
         </ul>
 
-        <h1>Perks</h1>
+        <h1>🍰Perks</h1>
         <ul>
             <li>🏆 Achievement Certificates & Cash Prizes for students securing Top Positions in Hackathon.</li>
             <li>🏆 Excellence Certificates and Consolation Prizes for Top 5 position in Hackathon other than winners. </li>
@@ -84,39 +94,86 @@
         </ul>
     </section>
 
+
+
     <section class="themes" id="themes">
         <h1>Themes</h1>
         <div class="flex">
             <div class="agriculture card" >
+                <div class="card-content">
                 <h2>Agriculture & Environment</h2>
+                <p>Technology in agriculture affects many areas of agriculture, such as fertilizers, pesticides, seed technology, etc. New-age technologies focus on robotics, precision agriculture, artificial intelligence, block chain technology, and more. Some technological advancements that have innovated agriculture</p>
+              </div>
             </div>
-            <div class="defense card"> <h2>Defense & Electronics </h2></div>
+            <div class="defense card">
+              <div class="card-content">
+                 <h2>Defense & Electronics </h2>
+                 <p>The importance of being self-reliant in the defence sector needs no
+                  emphasis as it is not only of critical strategic and national importance but also an
+                  essential component of the national power. The country has made significant progress in achieving this goal. However, much
+                  remains to be done.</p>
+              </div>
+                </div>
            
-            <div class="health card"> <h2>Health Care  </h2></div>
+            <div class="health card"> 
+              
+              <div class="card-content">
+                <h2>Health Care  </h2>
+                <p>Someone cannot argue that technology in healthcare is a new thing. We use medical technology from the most severe case to the simplest medical case, like breaking a bone. From plaster to robotic surgery, technological advancement is always present and undisputable. Nevertheless, behind every medical technology, there is the patient in mind</p>
+              </div>
+            </div>
            
         </div>
         <div class="flex">
             <div class="public card"> 
-                <h2>Public Safety,  Security & Finance </h2></div>
+              <div class="card-content">
+                <h2>Public Safety,  Security & Finance </h2>
+                <p>The digitization of security operations leads to a more networked and data-led approach. AI and machine learning help you make sense of data, identify patterns, and make decisions with minimal human intervention. </p>
+              </div>
+            </div>
             <div class="industrial card">
-                <h2>Industrial Applications</h2></div>
+              <div class="card-content">
+                <h2>Industrial Applications</h2>
+                <p>The implementation of innovative technologies can improve the way businesses in the manufacturing sector operate. These technologies can:
+
+                  1. increase the efficiency of your business systems
+                  2. increase the speed, flexibility and efficiency of the production process
+                  expand the range of what can be produced</p>
+              </div>
+            </div>
             
         </div>
     </section>
 
+
+
     <section class="contact" id="contact">
-        <h1>Contact</h1>
-        <pre>
-Anushka Srivastava - 83XXXXXXXX
-(General Secretary) 
+        <h1>📞Contact</h1>
 
-Nikhil Mishra - 70XXXXXXXX
+        <div class="flex margin">
+          <div class="flex-item">
+            <img src="images/anushka-didi.png" alt="">
+            <p>Anushka Srivastava - 83XXXXXXXX</p>
+            <p>(General Secretary) </p>
+          </div>
 
-Shivi Sinha - 95XXXXXXXX
-(Secretaries)
-        </pre>
+          <div class="flex-item">
+            <img src="images/shivi-didi.png" alt="" class="shivi-didi">
+            <p>Shivi Sinha - 95XXXXXXXX</p>
+            <p>(Secretary) </p>
+          </div>
+
+          <div class="flex-item">
+            <img src="images/nikhil-bhai.png" alt="">
+            <p>Nikhil Mishra - 70XXXXXXXX</p>
+            <p>(Secretary) </p>
+        </div>
+
+      </div>
     </section>
 
     <script src="index.js"></script>
+  </div>
   </body>
+  
 </html>
