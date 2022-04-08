@@ -5,16 +5,19 @@ $light: #e89a51;
   width: 0.8em;
   background-color: $dark;
 }
+
 ::-webkit-scrollbar-track {
   background: $dark;
   border-radius: 100vw;
   margin-block: 0.5em;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: $light;
   border-radius: 100vw;
   border: 0.1em solid $dark;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background-color: rgb(255, 4, 0);
 }
@@ -25,47 +28,60 @@ $light: #e89a51;
       content: url(/images/dark-mode.svg);
     }
   }
+
   .body {
     color: $light;
   }
+
   .home {
     background-color: $dark;
     color: $light;
+
     a {
       color: $light;
     }
+
     a:hover {
       border-bottom: solid 3px $light;
     }
   }
+
   button {
     background-color: $light;
     color: $dark;
   }
+
   button:hover {
     background-color: $dark;
     color: $light;
     border-color: $light;
   }
+
   .about {
     background-color: #35382a;
   }
+
   .rules {
     background-color: #29333b;
   }
+
   .themes {
     background-color: #413d54;
   }
+
   .contact {
     background-color: #324739;
   }
+
   footer {
     background-color: #50532d;
   }
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -87,15 +103,18 @@ html {
 
     .dark-mode {
       width: fit-content;
+
       img {
         height: 35px;
         margin-top: 7px;
         margin-right: 20px;
       }
+
       img:hover {
         transform: scale(1.2);
       }
     }
+
     button {
       border: none;
       padding: 10px 25px;
@@ -104,40 +123,49 @@ html {
       color: $light;
       font-size: 1rem;
     }
+
     button:hover {
       border: solid 2px $dark;
       background-color: $light;
       padding: 8px 23px;
       color: $dark;
     }
+
     section {
       min-height: 100vh;
       width: 100%;
     }
+
     .home {
       .logo {
         width: fit-content;
         padding: 25px 0 0 50px;
+
         img {
           height: 60px;
           width: fit-content;
         }
       }
     }
+
     nav {
       width: fit-content;
       float: right;
       margin-top: -60px;
+
       ul {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+
         li {
           padding: 10px 20px;
           list-style: none;
+
           a {
             padding-bottom: 15px;
           }
+
           a:hover {
             border-bottom: 2px solid $dark;
             font-weight: bold;
@@ -145,31 +173,38 @@ html {
         }
       }
     }
+
     header {
       width: fit-content;
       margin: auto;
+
       h2 {
         margin-top: 150px;
         font-size: 2rem;
       }
+
       h1 {
         font-size: 7rem;
         margin-top: 20px;
-        font-family: "Monoton", "Press Start 2P";
+        font-family: "Monoton", "Comfortaa";
       }
+
       p {
         font-size: 1.5rem;
         margin-top: 50px;
         font-family: "DM serif text";
+
         span {
           font-size: 3rem;
         }
       }
+
       button {
         margin-top: 70px;
         padding: 20px 40px;
         font-size: 1.5rem;
       }
+
       button:hover {
         border: solid 3px $dark;
         background-color: $light;
@@ -177,15 +212,19 @@ html {
         color: $dark;
       }
     }
+
     .about {
       background-color: #ecffa8;
+
       h1 {
         padding-top: 50px;
         font-size: 3rem;
       }
+
       h2 {
         margin-top: 50px;
       }
+
       p {
         font-size: 1.5rem;
         width: 70%;
@@ -193,6 +232,7 @@ html {
         margin-top: 100px;
         line-height: 30px;
       }
+
       .flex {
         margin-top: 200px;
         font-size: 1.4rem;
@@ -202,12 +242,15 @@ html {
         justify-content: space-around;
       }
     }
+
     .rules {
       background-color: #b3dcff;
+
       h1 {
         padding-top: 50px;
         font-size: 3rem;
       }
+
       ul {
         width: 70%;
         margin: auto;
@@ -218,12 +261,15 @@ html {
         font-size: 1.2rem;
       }
     }
+
     .themes {
       background-color: #c5b3ff;
+
       h1 {
         padding-top: 50px;
         font-size: 3rem;
       }
+
       .card {
         color: black;
         height: 300px;
@@ -231,25 +277,30 @@ html {
         background-color: white;
         border-radius: 20px;
         margin: 50px 20px 30px 20px;
+
         .card-content {
           width: 85%;
           margin: auto;
+
           h2 {
             margin: 20px 0;
             color: $dark;
           }
+
           p {
             text-align: justify;
             font-size: 17px;
           }
         }
       }
+
       .flex {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
       }
     }
+
     .contact {
       background-color: #b3ffcf;
 
@@ -257,6 +308,7 @@ html {
         padding-top: 50px;
         font-size: 3rem;
       }
+
       .flex {
         font-size: 1.2rem;
         display: flex;
@@ -264,35 +316,43 @@ html {
         align-items: center;
         flex-wrap: wrap;
         margin: auto;
+
         .flex-item {
           padding: 50px 80px;
+
           img {
             padding-bottom: 30px;
           }
+
           .shivi-didi {
             width: 150px;
           }
         }
       }
+
       h2 {
         margin-top: 50px;
         width: 100%;
       }
     }
+
     footer {
       min-height: 30vh;
       background-color: #edf583;
+
       .flex {
         height: 30vh;
         justify-content: center;
         align-items: center;
         display: flex;
         align-items: center;
+
         .logo {
           width: 40px;
           height: 40px;
           border-radius: 50%;
           margin: 0 50px;
+
           svg:hover {
             transform: scale(1.2);
           }
@@ -300,21 +360,26 @@ html {
       }
     }
   }
+
   .registration {
     background-color: $light;
+
     h1 {
       margin-top: 0px;
       margin-bottom: 80px;
       font-size: 3rem;
       font-family: "Comfortaa", Arial;
     }
+
     form {
       text-align: center;
       width: 50%;
       margin: auto;
       font-size: 1.3rem;
+
       div {
         margin: 20px 0;
+
         input {
           width: 500px;
           height: 40px;
@@ -322,10 +387,12 @@ html {
           margin-left: -100px;
         }
       }
+
       .submit-align {
         width: fit-content;
         margin: auto;
       }
+
       .submit {
         width: 100px;
         height: 50px;
@@ -336,6 +403,7 @@ html {
     }
   }
 }
+
 @media only screen and (max-width: 950px) {
   body {
     .logo {
@@ -343,17 +411,22 @@ html {
         display: none;
       }
     }
+
     a {
       font-size: 0.8rem;
     }
+
     nav {
       margin-top: 0;
       float: none;
       margin: auto;
+
       ul {
         width: 100%;
+
         li {
           padding: 10px 10px;
+
           button {
             padding: 10px 10px;
             font-size: 0.8rem;
@@ -361,25 +434,31 @@ html {
         }
       }
     }
+
     header {
       h2 {
         font-size: 1.2rem;
       }
+
       h1 {
         font-size: 3rem;
       }
+
       p {
         font-size: 1rem;
+
         span {
           font-size: 2rem;
         }
       }
     }
+
     .about {
       .flex {
         margin-top: 100px;
       }
     }
+
     .rules {
       margin-top: -100px;
     }
