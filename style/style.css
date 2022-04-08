@@ -142,7 +142,7 @@ html {
 }
 
 * body .home .logo img {
-  height: 60px;
+  height: 75px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -153,7 +153,7 @@ html {
   width: -moz-fit-content;
   width: fit-content;
   float: right;
-  margin-top: -60px;
+  margin-top: -80px;
 }
 
 * body nav ul {
@@ -207,6 +207,7 @@ html {
 
 * body header p span {
   font-size: 3rem;
+  font-weight: bold;
 }
 
 * body header button {
@@ -235,16 +236,32 @@ html {
   margin-top: 50px;
 }
 
-* body .about p {
-  font-size: 1.5rem;
-  width: 70%;
-  margin: auto;
+* body .about .coder-about {
   margin-top: 100px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+* body .about img {
+  width: 400px;
+}
+
+* body .about p {
+  text-align: left;
+  font-size: 1.5rem;
   line-height: 30px;
+  margin-top: 50px;
+  width: 50%;
 }
 
 * body .about .flex {
-  margin-top: 200px;
+  margin-top: 100px;
   font-size: 1.4rem;
   font-weight: bold;
   display: -webkit-box;
@@ -254,6 +271,7 @@ html {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  min-width: 0;
 }
 
 * body .rules {
@@ -261,6 +279,10 @@ html {
 }
 
 * body .rules h1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
   padding-top: 50px;
   font-size: 3rem;
 }
@@ -291,6 +313,8 @@ html {
   background-color: white;
   border-radius: 20px;
   margin: 50px 20px 30px 20px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 * body .themes .card .card-content {
@@ -359,6 +383,7 @@ html {
 * body .contact h2 {
   margin-top: 50px;
   width: 100%;
+  font-size: 1.7rem;
 }
 
 * body footer {
@@ -470,8 +495,25 @@ html {
   body header p span {
     font-size: 2rem;
   }
+  body .about {
+    height: 135vh;
+  }
+  body .about h2 {
+    font-size: 1.1rem;
+  }
+  body .about .coder-about {
+    margin-top: 50px;
+  }
+  body .about img {
+    width: 300px;
+  }
+  body .about p {
+    font-size: 1rem;
+    width: 80%;
+  }
   body .about .flex {
-    margin-top: 100px;
+    margin-top: 50px;
+    font-size: 1.2rem;
   }
   body .rules {
     margin-top: -100px;

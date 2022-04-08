@@ -14,13 +14,14 @@
   <meta name="robots" content="index, follow">
   <meta name="author" content="Parisheelan Negi">
 
-  <title>Reasearch By Learning | Hackathon</title>
+  <title>Research By Learning | Hackathon</title>
   <link rel="stylesheet" href="style/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=DM+Serif+Text:ital@1&family=Monoton&family=Roboto:wght@100&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <link rel="shortcut icon" type="image/png" href="images/logo.webP" />
 </head>
@@ -31,7 +32,9 @@
   <div class="body">
     <section class="home" id="home">
       <div class="logo">
-        <img src="images/logo.webP" alt="main-logo">
+        <a href="https://www.gbu.ac.in/" target="_blank">
+          <img src="images/logo.webP" alt="main-logo">
+        </a>
       </div>
 
       <nav>
@@ -50,7 +53,7 @@
 
       <header>
         <h2>Research By Learning</h2>
-        <h1>Hackathon</h1>
+        <h1 data-aos="fade">Hackathon</h1>
         <p>
           <span>❝ </span> <i> Let's foster our critical thinking and analytical skills.</i>
           <span> ❞</span>
@@ -65,29 +68,31 @@
 
 
     <section class="about" id="about">
-      <h1>About</h1>
-      <h2>A 2-Month Long Team Based Hackathon</h2>
-      <p>
-        Techno Cultural Club is organizing a 2 months long team based event,
-        Research By Learning Hackathon for the GBU students from 17th Feb to
-        17th April, 2022 in School of Information and Communication Technology
-        (SOICT). A perfect opportunity for students to showcase their Excellent
-        Writing skills and Innovation . Participating in this event will surely
-        add value to your Resume and leverage your chances for cracking Good
-        Placements in your Final Year. So Register Yourself !
-
+      <h1 data-aos="slide-down">About</h1>
+      <h2>A 2-Months Long Team Based Hackathon</h2>
+      <div class="coder-about">
+        <img src="/images/coder-drawing.svg" alt="coder" data-aos="zoom-in">
+        <p data-aos="fade-left" data-aos-duration="1000">
+          Techno Cultural Club is organizing a 2 months long team based event,
+          <b> Research By Learning</b> Hackathon for the GBU students from 17th Feb to
+          17th April, 2022 in School of Information and Communication Technology
+          (SOICT). A perfect opportunity for students to showcase their Excellent
+          Writing skills and Innovation . Participating in this event will surely
+          add value to your Resume and leverage your chances for cracking Good
+          Placements in your Final Year. So Register Yourself !
+        </p>
+      </div>
       <div class="flex">
         <span>Starts - 17th February, 2022</span>
         <span>Ends - 17th April, 2022</span>
       </div>
-      </p>
     </section>
 
 
 
     <section class="rules" id="rules">
-      <h1>⚔️ Rules</h1>
-      <ul>
+      <h1 data-aos="slide-down">⚔️ Rules</h1>
+      <ul data-aos="fade-right">
         <li>📌 Registration Fees Rs 50/- per team.</li>
         <li>📌Team Size : 1-3 Members (max : 3). </li>
         <li>📌 No intervening Certificates.</li>
@@ -95,8 +100,8 @@
           time. </li>
       </ul>
 
-      <h1>🍰Perks</h1>
-      <ul>
+      <h1 data-aos="slide-down">🍰Perks</h1>
+      <ul data-aos="fade-right">
         <li>🏆 Achievement Certificates & Cash Prizes for students securing Top Positions in Hackathon.</li>
         <li>🏆 Excellence Certificates and Consolation Prizes for Top 5 position in Hackathon other than winners. </li>
         <li>🏆 Completion Certificates for all the attendees who will complete this Hackathon and submit their work .
@@ -114,17 +119,17 @@
 
 
     <section class="themes" id="themes">
-      <h1>Themes</h1>
+      <h1 data-aos="slide-down">📚Themes</h1>
       <div class="flex">
-        <div class="agriculture card">
+        <div class="agriculture card" data-aos="flip-right">
           <div class="card-content">
             <h2>Agriculture & Environment</h2>
             <p>Technology in agriculture affects many areas of agriculture, such as fertilizers, pesticides, seed
               technology, etc. New-age technologies focus on robotics, precision agriculture, artificial intelligence,
-              block chain technology, and more. Some technological advancements that have innovated agriculture</p>
+              block chain technology, and more. Some technological advancements that have innovated agriculture.</p>
           </div>
         </div>
-        <div class="defense card">
+        <div class="defense card" data-aos="flip-right">
           <div class="card-content">
             <h2>Defense & Electronics </h2>
             <p>The importance of being self-reliant in the defence sector needs no
@@ -135,20 +140,20 @@
           </div>
         </div>
 
-        <div class="health card">
+        <div class="health card" data-aos="flip-right">
 
           <div class="card-content">
             <h2>Health Care </h2>
             <p>Someone cannot argue that technology in healthcare is a new thing. We use medical technology from the
               most severe case to the simplest medical case, like breaking a bone. From plaster to robotic surgery,
               technological advancement is always present and undisputable. Nevertheless, behind every medical
-              technology, there is the patient in mind</p>
+              technology, there is the patient in mind.</p>
           </div>
         </div>
 
       </div>
       <div class="flex">
-        <div class="public card">
+        <div class="public card" data-aos="flip-right">
           <div class="card-content">
             <h2>Public Safety, Security & Finance </h2>
             <p>The digitization of security operations leads to a more networked and data-led approach. AI and machine
@@ -156,15 +161,15 @@
               intervention. </p>
           </div>
         </div>
-        <div class="industrial card">
+        <div class="industrial card" data-aos="flip-right">
           <div class="card-content">
             <h2>Industrial Applications</h2>
             <p>The implementation of innovative technologies can improve the way businesses in the manufacturing sector
               operate. These technologies can:
 
-              1. increase the efficiency of your business systems
+              1. increase the efficiency of your business systems.
               2. increase the speed, flexibility and efficiency of the production process
-              expand the range of what can be produced</p>
+              expand the range of what can be produced.</p>
           </div>
         </div>
 
@@ -174,43 +179,43 @@
 
 
     <section class="contact" id="contact">
-      <h1>📞Contact</h1>
+      <h1 data-aos="slide-down">📞Contact</h1>
       <h2>Team</h2>
       <div class="flex margin">
         <div class="flex-item">
-          <img src="images/anushka-didi.webP" alt="anushka Srivastava">
+          <img src="images/anushka-didi.webP" alt="anushka Srivastava" data-aos="flip-right">
           <p>Anushka Srivastava - 83XXXXXXXX</p>
           <p>(General Secretary) </p>
         </div>
 
         <div class="flex-item">
-          <img src="images/shivi-didi.webP" alt="shivi sinha" class="shivi-didi">
+          <img src="images/shivi-didi.webP" alt="shivi sinha" class="shivi-didi" data-aos="flip-right">
           <p>Shivi Sinha - 95XXXXXXXX</p>
           <p>(Secretary) </p>
         </div>
 
         <div class="flex-item">
-          <img src="images/nikhil-bhai.webP" alt="nikhil mishra">
+          <img src="images/nikhil-bhai.webP" alt="nikhil mishra" data-aos="flip-right">
           <p>Nikhil Mishra - 70XXXXXXXX</p>
           <p>(Secretary) </p>
         </div>
 
-        <h2>Coordinators</h2>
+        <h2>Faculty Coordinators</h2>
         <div class="flex margin">
           <div class="flex-item">
-            <img src="images/navaid.webP" alt="navaid z rizwi">
+            <img src="images/navaid.webP" alt="navaid z rizwi" data-aos="flip-right">
             <p>Dr. Navaid.Z.Rizvi</p>
             <p>(Placements Head) </p>
           </div>
 
           <div class="flex-item">
-            <img src="images/vimlesh.webP" alt="vimlesh kumar" class="shivi-didi">
+            <img src="images/vimlesh.webP" alt="vimlesh kumar" class="shivi-didi" data-aos="flip-right">
             <p>Dr. Vimlesh Kumar Ray</p>
             <p>(Placements Head) </p>
           </div>
 
           <div class="flex-item">
-            <img src="images/vidushi.webP" alt="vidushi sharma">
+            <img src="images/vidushi.webP" alt="vidushi sharma" data-aos="flip-right">
             <p>Dr. Vidushi Sharma</p>
             <p>(HOD (ECE))</p>
           </div>
@@ -221,7 +226,7 @@
       <div class="container">
         <div class="flex">
           <a href="https://www.instagram.com/techno.club_gbu/" target="_blank">
-            <div class="logo insta">
+            <div class="logo insta" data-aos="zoom-in">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                 <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
@@ -231,7 +236,7 @@
           </a>
 
           <a href="https://www.linkedin.com/company/80874650/admin/" target="_blank">
-            <div class="logo insta">
+            <div class="logo insta" data-aos="zoom-in">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                 <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
@@ -244,6 +249,12 @@
     </footer>
 
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000
+      });
+    </script>
   </div>
 </body>
 
