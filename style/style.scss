@@ -120,7 +120,7 @@ $light:#E89A51;
         }
         nav{
             width:fit-content;
-            margin-left:500px;
+            float:right;
             margin-top:-60px;
             ul{
                 display:flex;
@@ -142,7 +142,7 @@ $light:#E89A51;
             h1{
                 font-size:7rem;
                 margin-top:20px;
-                font-family: 'Monoton';
+                font-family: 'Monoton', 'Press Start 2P';
             }
             p{
                 font-size:1.5rem;
@@ -269,13 +269,13 @@ $light:#E89A51;
     .registration{
         background-color: $light;
         h1{
-            margin-top:-100px;
+            margin-top:0px;
             margin-bottom:80px;
             font-size: 3rem;
             font-family: 'Comfortaa',Arial;
         }
         form{
-            text-align: right;
+            text-align: center;
             width:50%;
             margin:auto;
             font-size: 1.3rem;
@@ -285,7 +285,7 @@ $light:#E89A51;
                     width:500px;
                     height:40px;
                     border-radius: 8px;
-                    margin-left:10px;
+                    margin-left:-100px;
                 }
             }
             .submit-align{
@@ -310,26 +310,45 @@ $light:#E89A51;
                 display: none;
             }
         }
+        a{
+            font-size: 0.8rem;
+        }
         nav{
+            margin-top: 0;
+            float:none;
+            margin:auto;
             ul{
-                
+                width:100%;
+                li{
+                    padding:10px 10px;
+                    button{
+                        padding:10px 10px;
+                        font-size: 0.8rem;
+                    }
+                }
             }
         }
         header{
             h2{
-                font-size: 1.5rem;
+                font-size: 1.2rem;
             }
             h1{
                 font-size:3rem;
             }
             p{
                 font-size: 1rem;
+                span{
+                    font-size: 2rem;
+                }
             }
         }
         .about{
             .flex{
                 margin-top:100px;
             }
+        }
+        .rules{
+            margin-top: -100px;
         }
     }
 }
