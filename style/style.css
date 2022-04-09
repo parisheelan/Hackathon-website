@@ -189,7 +189,7 @@ html {
 }
 
 * body header h2 {
-  margin-top: 150px;
+  margin-top: 100px;
   font-size: 2rem;
 }
 
@@ -308,7 +308,7 @@ html {
 
 * body .themes .card {
   color: black;
-  height: 300px;
+  height: 400px;
   width: 350px;
   background-color: white;
   border-radius: 20px;
@@ -328,8 +328,9 @@ html {
 }
 
 * body .themes .card .card-content p {
+  margin-top: 50px;
   text-align: justify;
-  font-size: 17px;
+  font-size: 1.1rem;
 }
 
 * body .themes .flex {
@@ -417,48 +418,49 @@ html {
           transform: scale(1.2);
 }
 
-* .registration {
+.registration {
   background-color: #e89a51;
+  height: 100vh;
 }
 
-* .registration h1 {
-  margin-top: 0px;
-  margin-bottom: 80px;
+.registration h1 {
+  margin-top: 20px;
+  margin-bottom: 60px;
   font-size: 3rem;
   font-family: "Comfortaa", Arial;
 }
 
-* .registration form {
+.registration form {
   text-align: center;
-  width: 50%;
   margin: auto;
   font-size: 1.3rem;
 }
 
-* .registration form div {
+.registration form div {
   margin: 20px 0;
 }
 
-* .registration form div input {
-  width: 500px;
+.registration form div input {
   height: 40px;
   border-radius: 8px;
-  margin-left: -100px;
+  width: 80%;
+  text-align: center;
 }
 
-* .registration form .submit-align {
+.registration form .submit-align {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   margin: auto;
 }
 
-* .registration form .submit {
+.registration form .submit {
   width: 100px;
   height: 50px;
   border: none;
   border-radius: 8px;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 950px) {
@@ -496,10 +498,10 @@ html {
     font-size: 2rem;
   }
   body .about {
-    height: 135vh;
+    min-height: 140vh;
   }
   body .about h2 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   body .about .coder-about {
     margin-top: 50px;
@@ -508,7 +510,7 @@ html {
     width: 300px;
   }
   body .about p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     width: 80%;
   }
   body .about .flex {
@@ -517,6 +519,12 @@ html {
   }
   body .rules {
     margin-top: -100px;
+  }
+  body .rules ul {
+    width: 80%;
+  }
+  body .rules li {
+    font-size: 1.1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
