@@ -7,7 +7,7 @@ toggle.addEventListener("click", () => {
   body.classList.toggle("dark");
 });
 
-// Dark Mode that changes changes according to device preference
+// Dark Mode that changes according to device preference
 
 if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
   body.classList.add("dark");
