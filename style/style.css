@@ -184,6 +184,22 @@ html {
   font-weight: bold;
 }
 
+* body .hamburger {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: none;
+}
+
+* body .hamburger .bar {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 10px;
+}
+
 * body header {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -313,7 +329,7 @@ html {
 }
 
 * body .themes .card {
-  color: black;
+  color: white;
   height: 400px;
   width: 350px;
   background-color: white;
@@ -330,13 +346,46 @@ html {
 
 * body .themes .card .card-content h2 {
   margin: 20px 0;
-  color: #421a1a;
+  color: black;
+  text-shadow: 1px 1px 2px white;
 }
 
 * body .themes .card .card-content p {
   margin-top: 50px;
   text-align: justify;
   font-size: 1.1rem;
+  text-shadow: 3px 3px 3px black;
+}
+
+* body .themes .agriculture {
+  background-image: url("/images/agriculture.webP");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* body .themes .defense {
+  background-image: url("/images/defense.webP");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* body .themes .health {
+  background-image: url("/images/healthcare.webP");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* body .themes .public {
+  background-image: url("/images/safety.webP");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+* body .themes .industrial {
+  background-image: url("/images/industry.webP");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 * body .themes .flex {
@@ -476,13 +525,21 @@ html {
   body a {
     font-size: 0.8rem;
   }
+  body .show {
+    display: block;
+  }
   body nav {
-    margin-top: 0;
-    float: none;
     margin: auto;
+    display: none;
   }
   body nav ul {
-    width: 100%;
+    width: 100vw;
+    margin: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 30px 0;
   }
   body nav ul li {
     padding: 10px 10px;
@@ -490,6 +547,13 @@ html {
   body nav ul li button {
     padding: 10px 10px;
     font-size: 0.8rem;
+  }
+  body .hamburger {
+    margin-top: 0;
+    display: block;
+  }
+  body .dark-mode img {
+    margin: auto;
   }
   body header h2 {
     font-size: 1.2rem;

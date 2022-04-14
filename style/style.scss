@@ -145,6 +145,7 @@ html {
       .logo {
         width: fit-content;
         padding: 25px 0 0 50px;
+
         a:hover {
           border: none;
         }
@@ -182,10 +183,27 @@ html {
       }
     }
 
+    .hamburger {
+      cursor: pointer;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      display: none;
+
+      .bar {
+        width: 30px;
+        height: 4px;
+        background-color: white;
+        margin: 5px;
+        border-radius: 10px;
+      }
+    }
+
     //Header elements
     header {
       width: fit-content;
       margin: auto;
+
       h2 {
         margin-top: 100px;
         font-size: 2rem;
@@ -234,6 +252,7 @@ html {
       h2 {
         margin-top: 50px;
       }
+
       .coder-about {
         margin-top: 100px;
         justify-content: space-evenly;
@@ -241,9 +260,11 @@ html {
         display: flex;
         flex-wrap: wrap;
       }
+
       img {
         width: 400px;
       }
+
       p {
         text-align: left;
         font-size: 1.5rem;
@@ -295,7 +316,7 @@ html {
       }
 
       .card {
-        color: black;
+        color: white;
         height: 400px;
         width: 350px;
         background-color: white;
@@ -304,21 +325,56 @@ html {
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
           rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
+
         .card-content {
           width: 85%;
           margin: auto;
 
           h2 {
             margin: 20px 0;
-            color: $dark;
+            color: black;
+            text-shadow: 1px 1px 2px white;
           }
 
           p {
             margin-top: 50px;
             text-align: justify;
             font-size: 1.1rem;
+            text-shadow: 3px 3px 3px black;
+
           }
         }
+      }
+
+      .agriculture {
+        background-image: url("/images/agriculture.webP");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .defense {
+        background-image: url("/images/defense.webP");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .health {
+        background-image: url("/images/healthcare.webP");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .public {
+        background-image: url("/images/safety.webP");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+      }
+
+      .industrial {
+        background-image: url("/images/industry.webP");
+        background-repeat: no-repeat;
+        background-size: cover;
       }
 
       .flex {
@@ -449,13 +505,21 @@ html {
       font-size: 0.8rem;
     }
 
+    .show {
+      display: block;
+    }
+
     nav {
-      margin-top: 0;
-      float: none;
       margin: auto;
+      display: none;
+
+
 
       ul {
-        width: 100%;
+        width: 100vw;
+        margin: auto;
+        flex-direction: column;
+        margin: 30px 0;
 
         li {
           padding: 10px 10px;
@@ -466,6 +530,15 @@ html {
           }
         }
       }
+    }
+
+    .hamburger {
+      margin-top: 0;
+      display: block;
+    }
+
+    .dark-mode img {
+      margin: auto;
     }
 
     header {
@@ -488,19 +561,24 @@ html {
 
     .about {
       min-height: 140vh;
+
       h2 {
         font-size: 1.2rem;
       }
+
       .coder-about {
         margin-top: 50px;
       }
+
       img {
         width: 300px;
       }
+
       p {
         font-size: 1.1rem;
         width: 80%;
       }
+
       .flex {
         margin-top: 50px;
         font-size: 1.2rem;
@@ -509,9 +587,11 @@ html {
 
     .rules {
       margin-top: -100px;
+
       ul {
         width: 80%;
       }
+
       li {
         font-size: 1.1rem;
       }
