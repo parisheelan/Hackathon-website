@@ -76,6 +76,10 @@ $light: #ffb671;
     background-color: #324739;
   }
 
+  .vision {
+    background-color: #473232;
+  }
+
   footer {
     background-color: #50532d;
   }
@@ -420,6 +424,42 @@ html {
         font-size: 1.7rem;
       }
     }
+
+    //Vision
+
+    .vision {
+      background-color: #ffb5b5;
+
+      h1 {
+        font-size: 3rem;
+        padding-top: 50px;
+      }
+    }
+
+
+    .vision-about {
+
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      margin-top: 200px;
+      align-items: center;
+      gap: 100px;
+
+      .para {
+        width: 50%;
+        font-size: 1.7rem;
+
+        p {
+          text-align: justify;
+        }
+      }
+
+      img {
+        width: 30%;
+      }
+    }
+
 
     //Socials
     footer {

@@ -67,6 +67,10 @@
   background-color: #324739;
 }
 
+.dark .vision {
+  background-color: #473232;
+}
+
 .dark footer {
   background-color: #50532d;
 }
@@ -440,6 +444,46 @@ html {
   margin-top: 50px;
   width: 100%;
   font-size: 1.7rem;
+}
+
+* body .vision {
+  background-color: #ffb5b5;
+}
+
+* body .vision h1 {
+  font-size: 3rem;
+  padding-top: 50px;
+}
+
+* body .vision-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 100px;
+}
+
+* body .vision-about .para {
+  width: 50%;
+  font-size: 1.7rem;
+}
+
+* body .vision-about .para p {
+  text-align: justify;
+}
+
+* body .vision-about img {
+  width: 30%;
 }
 
 * body footer {
