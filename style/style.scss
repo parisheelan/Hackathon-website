@@ -441,14 +441,16 @@ html {
 
       display: flex;
       flex-direction: row-reverse;
+      flex-wrap: wrap;
       justify-content: center;
-      margin-top: 200px;
+      margin-top: 150px;
       align-items: center;
       gap: 100px;
 
       .para {
-        width: 50%;
         font-size: 1.7rem;
+        width: 80%;
+        margin-bottom: 100px;
 
         p {
           text-align: justify;
@@ -456,7 +458,7 @@ html {
       }
 
       img {
-        width: 30%;
+        width: 400px;
       }
     }
 
@@ -636,5 +638,12 @@ html {
         font-size: 1.1rem;
       }
     }
+
+    .vision-about {
+      .para {
+        font-size: 1.1rem;
+      }
+    }
+
   }
 }
