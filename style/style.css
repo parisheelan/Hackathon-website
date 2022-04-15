@@ -479,6 +479,7 @@ html {
   font-size: 1.7rem;
   width: 80%;
   margin-bottom: 100px;
+  line-height: 1.5;
 }
 
 * body .vision-about .para p {
@@ -602,6 +603,13 @@ html {
   body .dark-mode img {
     margin: auto;
   }
+  body header {
+    margin-top: 180px;
+  }
+  body header button {
+    padding: 15px 30px;
+    font-size: 1rem;
+  }
   body header h2 {
     font-size: 1.2rem;
   }
@@ -612,7 +620,7 @@ html {
     font-size: 1rem;
   }
   body header p span {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   body .about {
     min-height: 140vh;

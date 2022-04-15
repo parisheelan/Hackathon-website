@@ -451,6 +451,7 @@ html {
         font-size: 1.7rem;
         width: 80%;
         margin-bottom: 100px;
+        line-height: 1.5;
 
         p {
           text-align: justify;
@@ -584,6 +585,13 @@ html {
     }
 
     header {
+      margin-top: 180px;
+
+      button {
+        padding: 15px 30px;
+        font-size: 1rem;
+      }
+
       h2 {
         font-size: 1.2rem;
       }
@@ -596,7 +604,7 @@ html {
         font-size: 1rem;
 
         span {
-          font-size: 2rem;
+          font-size: 1.2rem;
         }
       }
     }
