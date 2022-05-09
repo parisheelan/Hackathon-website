@@ -20,7 +20,7 @@
 }
 
 .dark .dark-mode img {
-  content: url(/images/dark-mode.svg);
+  content: url(/assets/images/dark-mode.svg);
 }
 
 .dark .body {
@@ -362,32 +362,32 @@ html {
 }
 
 * body .themes .agriculture {
-  background-image: url("/images/agriculture.webP");
+  background-image: url("/assets/images/agriculture.webP");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 * body .themes .defense {
-  background-image: url("/images/defense.webP");
+  background-image: url("/assets/images/defense.webP");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 * body .themes .health {
-  background-image: url("/images/healthcare.webP");
+  background-image: url("/assets/images/healthcare.webP");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 * body .themes .public {
-  background-image: url("/images/safety.webP");
+  background-image: url("/assets/images/safety.webP");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
 }
 
 * body .themes .industrial {
-  background-image: url("/images/industry.webP");
+  background-image: url("/assets/images/industry.webP");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -519,6 +519,12 @@ html {
 * body footer .flex .logo svg:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+* body footer .developer {
+  color: black;
+  padding: 10px 0;
+  font-weight: bold;
 }
 
 .registration {
